@@ -1,0 +1,48 @@
+#choices li, #answer li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.disabled {
+    opacity: .3;
+}
+
+body {
+    font-family: 'lato', sans-serif;
+    font-size: 30px;
+    display: flex;
+    margin: 0;
+}
+
+#wrapper {
+    display: flex; 
+    width: 60vw;
+    flex-direction: column;
+}
+
+#choices, #answer {
+    flex-grow: 1;
+
+}
+
+#score {
+    margin-top: 100px;
+    margin-left: 50px;
+    height: 100vh;
+    width: 40vw;
+}
+
+#ok{
+    margin-top: -400px;
+    margin-left: 50px;
+    text-decoration: underline;
+}
+
+#answer h2{
+    margin-left: 95px;
+}
+#answer p{
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+
